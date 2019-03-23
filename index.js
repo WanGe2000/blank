@@ -43,6 +43,7 @@ function move(){
 			for(var i = 0;i < 4;i ++){
 				if(main.children()[len - 1].children[i].className == 'click'){
 					over();
+					return
 				}
 			}
 			$(main.children()[len - 1]).remove();
