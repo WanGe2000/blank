@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	background: #aaa;
+}
+.start{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 50px;
+	font-size: 28px;
+	margin-top: -25px;
+	margin-left: -100px;
+	cursor:pointer;
+	display: block;
+}
+.box{
+	width: 600px;
+	height: 807px;
+	margin: 0 auto;
+	border: 1px solid black;
+	display: none;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	position: absolute;
+	top: 0;
+}
+.main>div{
+	width: 600px;
+}
+.main>div>div{
+	width: 149px;
+	height: 201px;
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+}
+.scorebox{
+	position: fixed;
+	top:90%;
+	left: 50%;
+	font-size: 24px;
+	margin-left: -50px;
+	display: none;
+}
